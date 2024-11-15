@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 209, 209);
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+h2{
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+a{
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+#logo{
+    height: 50px;
+    width: 70px;
+}
+
+#searchbox{
+    position: absolute;
+    right: 300px;
+    top: 5%;
+    align-items: center;
+    max-width: 300px;
+    z-index: 11;
+}
+
+#search{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#contact{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 230px;
+    top:44px ;
+}
+
+#shop{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 150px;
+    top:44px ;
+}
+
+#img1{
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    z-index: 10;
+}
+
+#curve{
+    rotate: -59deg;
+    position: absolute;
+    right: 20%;
+    top: 8%;
+    z-index: 9;
+}
+
+#head{
+    font-family: gilroy;
+    font-size: 60px;
+    color: rgb(218, 50, 50);
+    text-transform: uppercase;
+}
+
+#one{
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#two{
+    font-weight: 800;
+    margin-left: 200px;
+}
+
+#para1{
+    font-size: 19px;
+    font-family: gilroy;
+    margin-left: 200px;
+    font-weight: 500;
+}
+
+button{
+    height: 70px;
+    width: 220px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(218, 50, 50);
+    border: 2px solid rgb(218, 50, 50);
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#button:hover{
+    background-color: rgb(203, 117, 117);
+    
+}
+
+#img2{
+    height: 500px;
+    width: 350px;
+    display: block;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+#arrowl{
+    height: 100px;
+    width: 100px;
+}
+
+#arrowl{
+    height: 100px;
+    width: 100px;
+}
+
+#arrowl{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 600px;
+    top: 855px;
+    z-index: 12;
+    background-color: transparent;
+}
+
+#arrowr{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 540px;
+    top: 855px;
+    z-index: 12;
+    background-color: transparent;
+}
+
+#box{
+    height: 70px;
+    width: 140px;
+    background-color: red;
+    z-index: 11;
+    position: absolute;
+    right: 530px;
+    top: 851px; 
+}
+
+#textbox{
+    height: 350px;
+    width: 300px;
+    z-index: 10;
+    background-color: rgba(177, 134, 87, 0.516);
+    position: absolute;
+    right: 594px;
+    top: 570px;
+}
+
+#para2{
+    font-size: 22px;
+    font-family: gilroy;
+    font-weight: 600;
+    position: absolute;
+    right: 640px;
+    top: 640px ;
+    background-color: transparent;
+    z-index: 11;
+}
+
+#img3{
+    height: 900px;
+    width: 1720px;
+    margin-left: 90px;
+    margin-top: 100px;
+    z-index: 11;
+}
+
+#text2{
+    background-color: transparent;
+    font-size: 70px;
+    font-family: gilroy;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 2000px;
+}
+
+#img4{
+    height: 550px;
+    width: 450px;
+    position: absolute;
+    top: 2420px;
+    left: 90px;
+}
+
+#img5{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 2620px;
+    left: 32%;
+}
+
+#curve2{
+    padding-left: 720px;
+    padding-top: 190px;
+
+}
+
+#prh3{
+    text-transform: uppercase;
+    font-weight: 900;
+    color:  rgb(218, 50, 50);
+}
+
+#para3{
+    font-size: 22px;
+    font-family: gilroy;
+    position: absolute;
+    right: 50px;
+    top: 2500px;
+}
+
+#prh4{
+    text-transform: uppercase;
+    font-weight: 900;
+    color:  rgb(218, 50, 50);
+}
+
+#para4{
+    font-size: 22px;
+    font-family: gilroy;
+    position: absolute;
+    right: 40px;
+    top: 2790px;
+}
+
+#head2 h1{
+    font-family: gilroy;
+    font-weight: 900;
+    font-size: 60px;
+    background-color: transparent;
+    line-height: 60px;
+}
+
+#h11{
+    position: absolute;
+    top: 3200px;
+    left: 130px;
+}
+
+#h12{
+    position: absolute;
+    top: 3290px;
+    left: 350px;
+}
+
+#h13{
+    position: absolute;
+    top: 3380px;
+    left: 200px;
+}
+
+#img6{
+    position: absolute;
+    top: 3100px;
+    right: 80px;
+    height: 800px;
+}
+
+#para5{
+    position: absolute;
+    top: 3550px;
+    left: 200px;
+}
+
+#para5 h2{
+    font-size: 43px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:  rgb(218, 50, 50);
+}
+
+#para5 p{
+    font-size: 22px;
+    padding-top:8px ;
+    font-family: gilroy;
+}
+
+#img7{
+    height: 530px;
+    width: 450px;
+    position: absolute;
+    top: 3900px;
+    left: 670px;
+}
+
+#img8{
+    height: 470px;
+    position: absolute;
+    top: 3800px;
+    left: 200px;
+}
+
+#para6{
+    position: absolute;
+    top: 4000px;
+    right: 50px;
+}
+
+#para6 h2{
+    font-size: 43px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:  rgb(218, 50, 50);
+}
+
+#para6 p{
+    font-size: 22px;
+    padding-top:8px ;
+    font-family: gilroy;
+}
